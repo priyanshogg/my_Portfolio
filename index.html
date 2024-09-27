@@ -1,34 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Birthday Card</title>
-    <!-- Google Font-->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Stylesheet -->
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="card">
-      <div class="outside">
-        <div class="front">
-          <p>Happy Birthday</p>
-          <div class="cake">
-            <div class="top-layer"></div>
-            <div class="middle-layer"></div>
-            <div class="bottom-layer"></div>
-            <div class="candle"></div>
-          </div>
-        </div>
-        <div class="back"></div>
-      </div>
-      <div class="inside">
-        <p>Wishing you a very happy birthday filled with love and laughter</p>
-        <h1>&#127873;</h1>
-      </div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Creative Agency</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <h1>Creative Agency</h1>
+    <p>Your one-stop solution for Graphic Design, Animation, and Video Editing.</p>
+  </header>
+
+  <section id="home">
+    <h2>Welcome to Creative Agency</h2>
+    <p>We design impactful visuals, animations, and videos that tell your brand's story.</p>
+    <a href="#portfolio" class="btn">Explore Our Work</a>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="service">
+      <h3>Graphic Design</h3>
+      <p>Creative and unique designs to enhance your brand's image.</p>
     </div>
-  </body>
+    <div class="service">
+      <h3>Animation</h3>
+      <p>Custom animations to bring your ideas to life.</p>
+    </div>
+    <div class="service">
+      <h3>Video Editing</h3>
+      <p>Professional video editing services for stunning results.</p>
+    </div>
+  </section>
+
+  <section id="portfolio">
+    <h2>Our Work</h2>
+    <div class="portfolio-item">
+      <img src="project1.jpg" alt="Project 1">
+      <p>Social Media Promo Video</p>
+    </div>
+    <div class="portfolio-item">
+      <img src="project2.jpg" alt="Project 2">
+      <p>Custom Logo Animation</p>
+    </div>
+    <div class="portfolio-item">
+      <img src="project3.jpg" alt="Project 3">
+      <p>Website Redesign Graphics</p>
+    </div>
+  </section>
+
+  <section id="testimonials">
+    <h2>What Clients Say</h2>
+    <blockquote>
+      "Amazing design and video editing services. Highly recommend!"
+      <cite>- Client Name</cite>
+    </blockquote>
+    <blockquote>
+      "Their animations took our brand to the next level."
+      <cite>- Another Client</cite>
+    </blockquote>
+  </section>
+
+  <section id="contact">
+    <h2>Get in Touch</h2>
+    <form id="contact-form">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Creative Agency. All rights reserved.</p>
+    <div class="social">
+      <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+      <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+      <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
 </html>
